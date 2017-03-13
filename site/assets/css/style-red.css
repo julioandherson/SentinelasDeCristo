@@ -437,3 +437,17 @@ font-size:10px;
 color:#fff;
 text-decoration:none;
 }
+/*============================
+SITE DOS SENTINELAS
+==============================*/
+#territorio select {
+  width: 150px;
+  height: 22px;
+  margin-top: 13px;
+  background-color: #000000;
+  font-family: 'Oswald', sans-serif;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 2px;
+  color: #FFF;
+}
