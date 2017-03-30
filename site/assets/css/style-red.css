@@ -1,6 +1,6 @@
 ﻿/*=============================================================
     Authour URL: www.designbootstrap.com
-    
+
     http://www.designbootstrap.com/
 
     License: MIT
@@ -10,7 +10,7 @@
     100% Free To use For Personal And Commercial Use.
 
     IN EXCHANGE JUST TELL PEOPLE ABOUT THIS WEBSITE
-   
+
 ========================================================  */
 
 
@@ -28,7 +28,8 @@ GENERAL STYLES
 ============================================================ */
 body {
 font-family: 'Ubuntu', sans-serif;
-color: #fff;
+color: #444444;
+background-color: white;
 }
 
 section {
@@ -48,7 +49,7 @@ text-transform: uppercase;
 
 .header hr {
 width: 50px;
-border-top: 2px solid rgb(228, 79, 79);
+border-top: 2px solid rgb(200, 177, 120);
 }
 
 
@@ -70,23 +71,23 @@ margin: 5px;
 .btn-custom-one {
 background-color: transparent;
 color: #fff;
-border: 2px solid rgb(228, 79, 79);
+border: 2px solid rgb(200, 177, 120);
 }
 
 .btn-custom-one:hover {
-background-color: rgb(228, 79, 79);
+background-color: rgb(200, 177, 120);
 text-decoration: none;
 color: #fff;
 }
 
 .btn-custom-two {
 color: #fff;
-background-color: rgb(228, 79, 79);
-border: 2px solid rgb(228, 79, 79);
+background-color: rgb(200, 177, 120);
+border: 2px solid rgb(200, 177, 120);
 }
 
 .btn-custom-two:hover {
-border: 2px solid rgb(228, 79, 79);
+border: 2px solid rgb(200, 177, 120);
 text-decoration: none;
 color: #fff;
 background-color: transparent;
@@ -97,13 +98,13 @@ background-color: transparent;
 MENU SECTION STYLES
 ============================================================ */
 .navbar-inverse {
-background-color: rgba(0, 0, 0, 0.4);
+background-color: rgba(200, 177, 120, 0.8);
 border-color: transparent;
 }
 
 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
 background-color: transparent;
-border-bottom: 1px solid rgb(228, 79, 79);
+border-bottom: 1px solid rgb(255, 255, 255);
 }
 
 .navbar-inverse .navbar-nav > li > a {
@@ -112,7 +113,7 @@ font-weight: 800;
 padding: 5px 0px;
 letter-spacing: 2px;
 margin: 10px 20px 10px 20px;
-color: #FFF;
+color: #444444;
 }
 
 .navbar-inverse .navbar-brand, .navbar-inverse .navbar-brand:hover {
@@ -125,10 +126,10 @@ font-family: 'Oswald', sans-serif;
 border-color: transparent;
 }
 .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
-background-color: rgb(228, 79, 79);
+background-color: rgb(200, 177, 120);
 }
 .navbar-inverse .navbar-toggle {
-border-color: rgb(228, 79, 79);
+border-color: rgb(200, 177, 120);
 }
 
 
@@ -159,7 +160,7 @@ font-family: 'Oswald', sans-serif;
 }
 
 #carousel-slider p {
-color: rgb(228, 79, 79);
+color: rgb(200, 177, 120);
 font-size: 16px;
 line-height: 25px;
 margin: 25px 20px;
@@ -193,7 +194,7 @@ font-family: 'Oswald', sans-serif;
 
 #services .services-wrapper i {
 margin: 5px;
-color: rgb(228, 79, 79);
+color: rgb(200, 177, 120);
 font-size: 60px;
 }
 
@@ -258,7 +259,7 @@ padding: 30px 20px;
 font-weight: 900;
 text-transform: uppercase;
 font-size: 30px;
-color: rgb(228, 79, 79);
+color: rgb(200, 177, 120);
 }
 
 .light-pricing .pricing-footer {
@@ -311,12 +312,12 @@ cursor: pointer;
 -moz-transition: all 0.5s ease-in-out;
 -o-transition: all 0.5s ease-in-out;
 transition: all 0.5s ease-in-out;
-border: 1px solid rgb(228, 79, 79);
+border: 1px solid rgb(200, 177, 120);
 }
 
 #work .work-wrapper:hover {
 background-color: transparent;
-border: 1px solid rgb(228, 79, 79);
+border: 1px solid rgb(200, 177, 120);
 
 opacity: .80; /* standard: ff gt 1.5, opera, safari */
 -ms-filter: "alpha(opacity=80)"; /* ie 8 */
@@ -368,7 +369,7 @@ border-radius: 10px 10px 0px 0px;
 }
 
 .team-wrapper > .team-inner > a {
-color: rgb(228, 79, 79);
+color: rgb(200, 177, 120);
 width: 80px;
 height: 80px;
 border-radius: 50%;
@@ -376,7 +377,7 @@ border-radius: 50%;
 -webkit-border-radius: 50%;
 margin: 0 auto -50px;
 display: block;
-color: rgb(228, 79, 79);
+color: rgb(200, 177, 120);
 z-index: 999;
 font-size: 40px;
 padding: 15px 22px;
@@ -390,7 +391,7 @@ transition: all 0.8s ease-in-out;
 .team-wrapper > .team-inner > a:hover {
 color: #fff;
 text-decoration: none;
-background-color: rgb(228, 79, 79);
+background-color: rgb(200, 177, 120);
 }
 
 
@@ -403,7 +404,7 @@ border-left: 1px solid #fff;
 }
 
 .team-wrapper .description h5 {
-color: rgb(228, 79, 79);
+color: rgb(200, 177, 120);
 }
 
 
@@ -422,7 +423,7 @@ margin-bottom: 40px;
 min-height:200px;
 }
 #contact .contact-wrapper h3 {
-color:rgb(228, 79, 79);
+color:rgb(200, 177, 120);
 }
 #contact .social-below {
 display: block;
@@ -445,9 +446,37 @@ SITE DOS SENTINELAS
   height: 22px;
   margin-top: 13px;
   background-color: #000000;
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   font-size: 12px;
   font-weight: 800;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   color: #FFF;
+}
+
+#galeria h3{
+  color:rgb(200, 177, 120);
+}
+
+#sobre h3{
+  color:rgb(200, 177, 120);
+}
+
+#inicio h3{
+  color:rgb(200, 177, 120);
+}
+
+#pedidos h3{
+  color:rgb(200, 177, 120);
+}
+
+#loja h3{
+  color:rgb(200, 177, 120);
+}
+
+#agenda h3{
+  color:rgb(200, 177, 120);
+}
+
+#contato h3{
+  color:rgb(200, 177, 120);
 }
