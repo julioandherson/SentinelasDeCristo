@@ -28,7 +28,7 @@ GENERAL STYLES
 ============================================================ */
 body {
 font-family: 'Ubuntu', sans-serif;
-color: #444444;
+color: #000000;
 background-color: white;
 }
 
@@ -117,6 +117,8 @@ color: #444444;
 }
 
 .navbar-inverse .navbar-brand, .navbar-inverse .navbar-brand:hover {
+position: absolute;
+left: 314px;
 color: #fff;
 font-weight: 900;
 font-family: 'Oswald', sans-serif;
@@ -479,4 +481,9 @@ SITE DOS SENTINELAS
 
 #contato h3{
   color:rgb(200, 177, 120);
+}
+#logo img {
+  position: absolute;
+  height: 50px;
+  width: 80px;
 }
