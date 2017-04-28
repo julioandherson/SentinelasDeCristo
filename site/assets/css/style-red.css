@@ -113,15 +113,16 @@ font-weight: 800;
 padding: 5px 0px;
 letter-spacing: 2px;
 margin: 10px 20px 10px 20px;
-color: #444444;
+color: #0000CC;
 }
 
 .navbar-inverse .navbar-brand, .navbar-inverse .navbar-brand:hover {
-position: absolute;
-left: 314px;
-color: #fff;
-font-weight: 900;
-font-family: 'Oswald', sans-serif;
+	position: absolute;
+	left: 314px;
+	color: #fff;
+	font-weight: 900;
+	font-family: 'Oswald', sans-serif;
+	width: 225px;
 }
 
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
@@ -483,7 +484,7 @@ SITE DOS SENTINELAS
   color:rgb(200, 177, 120);
 }
 #logo img {
-  position: absolute;
-  height: 50px;
-  width: 80px;
+	position: absolute;
+	height: 85;
+	width: 92;
 }

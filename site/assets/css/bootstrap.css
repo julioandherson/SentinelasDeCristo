@@ -1079,6 +1079,7 @@ body {
   line-height: 1.42857143;
   color: #333;
   background-color: #fff;
+  alignment-baseline:middle
 }
 input,
 button,
@@ -4158,11 +4159,11 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   border-width: 1px 0 0;
 }
 .navbar-brand {
-  float: left;
-  height: 50px;
-  padding: 15px 15px;
-  font-size: 18px;
-  line-height: 20px;
+	float: left;
+	height: 34px;
+	padding: 15px;
+	font-size: 18px;
+	line-height: 20px;
 }
 .navbar-brand:hover,
 .navbar-brand:focus {
