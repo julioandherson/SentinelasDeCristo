@@ -33,8 +33,20 @@ background-color: white;
 }
 
 section {
-padding-top: 80px;
+padding-top: 20px;
 padding-bottom: 40px;
+}
+
+.slider{
+	background-image: url('../img/candlelight.jpg');
+	padding-top: 5em;
+	padding-bottom: 5em;
+	padding-left: 5em;
+	padding-right: 5em;
+}
+
+.bgslider{
+
 }
 
 .pad-bottom {
@@ -98,7 +110,7 @@ background-color: transparent;
 MENU SECTION STYLES
 ============================================================ */
 .navbar-inverse {
-background-color: rgba(200, 177, 120, 0.8);
+background-color: rgba(200, 177, 120, 0.9);
 border-color: transparent;
 }
 
@@ -112,13 +124,13 @@ font-size: 12px;
 font-weight: 800;
 padding: 5px 0px;
 letter-spacing: 2px;
-margin: 10px 20px 10px 20px;
-color: #0000CC;
+margin: 10px 15px 10px 15px;
+color: #ffffff;
 }
 
 .navbar-inverse .navbar-brand, .navbar-inverse .navbar-brand:hover {
 	position: absolute;
-	left: 314px;
+	left: 9em;
 	color: #fff;
 	font-weight: 900;
 	font-family: 'Oswald', sans-serif;
