@@ -497,5 +497,9 @@ SITE DOS SENTINELAS
 }
 #logo img {
 	position: absolute;
-	left: 320px;
+	left: 360px;
+}
+.logoSection {
+    position: relative;
+    left: -170px;
 }
