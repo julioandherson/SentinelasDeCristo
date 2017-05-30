@@ -33,7 +33,7 @@ background-color: white;
 }
 
 section {
-padding-top: 20px;
+padding-top: 80px;
 padding-bottom: 40px;
 }
 
@@ -450,7 +450,7 @@ padding-top:25px;
 .footer-div a,.footer-div a:hover {
 font-size:10px;
 
-color:#fff;
+color:#000000;
 text-decoration:none;
 }
 /*============================
@@ -497,6 +497,5 @@ SITE DOS SENTINELAS
 }
 #logo img {
 	position: absolute;
-	height: 85;
-	width: 92;
+	left: 320px;
 }
