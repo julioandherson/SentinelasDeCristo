@@ -130,7 +130,7 @@ color: #ffffff;
 
 .navbar-inverse .navbar-brand, .navbar-inverse .navbar-brand:hover {
 	position: absolute;
-	left: 9em;
+	left: 15em;
 	color: #fff;
 	font-weight: 900;
 	font-family: 'Oswald', sans-serif;
@@ -497,7 +497,7 @@ SITE DOS SENTINELAS
 }
 #logo img {
 	position: absolute;
-	left: 360px;
+	left: 160px;
 }
 .logoSection {
     position: relative;
