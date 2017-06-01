@@ -45,10 +45,6 @@ padding-bottom: 40px;
 	padding-right: 5em;
 }
 
-.bgslider{
-
-}
-
 .pad-bottom {
 padding-bottom: 60px;
 }
@@ -502,4 +498,16 @@ SITE DOS SENTINELAS
 .logoSection {
     position: relative;
     left: -170px;
+}
+/*============================
+SITE DOS SENTINELAS RESPONSIVO
+==============================*/
+@media only screen and (max-width: 768px) {
+    #logo img {
+        display: none;
+    }
+    .slider {
+        background-size: 415px 650px;
+        background-repeat: no-repeat;
+    }
 }
