@@ -511,12 +511,12 @@ SITE DOS SENTINELAS RESPONSIVO
         background-repeat: no-repeat;
     }
     body, html {
-      overflow-x:hidden;
+      overflow-x: hidden;
     }
 }
 
 @media only screen and (max-width: 768px) and (orientation: landscape) {
-      .slider {
+    .slider {
         background-size: 785px 720px;
         background-repeat: no-repeat;
     }
